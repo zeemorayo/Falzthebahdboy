@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  background-image: url(falz.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 0 8%;
+  position: relative;
+
+}
+
+.content{
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+}
+
+.content h1{
+  font-size: 64px;
+  font-weight: 700;
+  color: rgb(252, 199, 24);
+}
+
+.content h1 span{
+  color: rgb(3, 155, 197);
+  text-decoration: overline;
+}
+
+.content button{
+  background: transparent;
+  border: 2px solid rgb(4, 89, 134);
+  outline: none;
+  padding: 12px 25px;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.launch-time{
+  display: flex;
+}
+
+.launch-time div{
+  flex-basis: 100px;
+  
+}
+
+.launch-time div p{
+  font-size: 60px;
+  margin-bottom: -14px;
+}
