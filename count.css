@@ -1,3 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  width: 100vw;
+  height: 100vh;
+  background-image: url(falz.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 0 8%;
+  position: relative;
+  
+}
+
+
+
 .content{
   top: 50%;
   position: absolute;
